@@ -10,8 +10,9 @@ video {
   position: fixed;
   z-index: -1;
   object-fit: cover;
-  transform: scaleX(-1); /* This will flip the video horizontally */
+  transform: scaleX(-1);
 }
+
 
 .navbar {
   display: flex;
@@ -20,6 +21,9 @@ video {
   padding: 20px 50px;
 }
 
+.navbar a i {
+  font-size: 45px;
+} 
 .logo img{
   width: 150px;
 }
