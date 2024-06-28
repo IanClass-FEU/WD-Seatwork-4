@@ -173,12 +173,16 @@ video {
 .navbar a:hover i,
 .social-icons a:hover i,
 .logo:hover img {
-  color: #22c55e;
   transform: scale(1.2);
 }
 
 .logo:hover img {
   transform: rotate(360deg);
+}
+
+.logo:hover .hover-text-right {
+  opacity: 1;
+  animation: fadeInMove 0.5s ease forwards;
 }
 
 /* Keyframes for text animation */
@@ -191,4 +195,21 @@ video {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Specific hover colors for social icons */
+.social-icons a:hover .bi-facebook {
+  color: #1877f2; /* Facebook blue */
+}
+
+.social-icons a:hover .bi-twitter {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.social-icons a:hover .bi-instagram {
+  color: #c32aa3; /* Instagram pink */
+}
+
+.social-icons a:hover .bi-youtube {
+  color: #ff0000; /* YouTube red */
 }
