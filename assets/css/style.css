@@ -213,3 +213,10 @@ video {
 .social-icons a:hover .bi-youtube {
   color: #ff0000; /* YouTube red */
 }
+
+/* Specific hover color for navbar icons */
+.navbar a:hover .bi-stars,
+.navbar a:hover .bi-house-fill,
+.navbar a:hover .bi-rocket-takeoff-fill {
+  color: yellow; /* Yellow color */
+}
