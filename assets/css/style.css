@@ -13,31 +13,40 @@ video {
   transform: scaleX(-1);
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
+  position: relative;
 }
 
 .navbar a i {
   font-size: 45px;
-} 
-.logo img{
-  width: 150px;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.logo img {
+  width: 150px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
 .navbar a {
   color: #fff;
   text-decoration: none;
   margin: 0 15px;
   font-weight: 500;
+  position: relative;
 }
+
 .navbar .signup-btn {
   background-color: #22c55e;
   padding: 10px 20px;
   border-radius: 5px;
 }
+
 .hero-section {
   display: flex;
   justify-content: space-between;
@@ -46,21 +55,26 @@ video {
   padding: 0 100px;
   background-color: rgba(0, 0, 0, 0);
 }
+
 .hero-text {
   max-width: 50%;
 }
+
 .hero-text h1 {
   font-size: 48px;
   font-weight: 700;
   margin: 20px 0;
 }
+
 .hero-text p {
   font-size: 20px;
   font-weight: 400;
 }
+
 .hero-buttons {
   margin-top: 30px;
 }
+
 .hero-buttons .btn {
   display: inline-block;
   padding: 15px 30px;
@@ -71,16 +85,20 @@ video {
   color: #fff;
   font-weight: 500;
 }
+
 .hero-buttons .btn.download {
   background-color: #22c55e;
   border-color: #22c55e;
 }
+
 .hero-image {
   max-width: 50%;
 }
+
 .hero-image img {
   width: 100%;
 }
+
 .social-container {
   position: absolute;
   right: 30px;
@@ -90,13 +108,55 @@ video {
   padding: 10px;
   border-radius: 20px;
 }
+
 .social-icons {
   display: flex;
   flex-direction: column;
 }
+
 .social-icons a {
   margin: 10px 0;
   color: #fff;
   text-decoration: none;
   font-size: 24px;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hover-text-bottom,
+.hover-text-left,
+.hover-text {
+  display: inline-block;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
+}
+
+.hover-text-bottom {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+}
+
+.hover-text-left {
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 5px;
+}
+
+.navbar a:hover .hover-text-bottom,
+.social-icons a:hover .hover-text-left,
+.logo:hover .hover-text {
+  opacity: 1;
+  transform: translate(0);
+}
+
+.navbar a:hover i,
+.social-icons a:hover i,
+.logo:hover img {
+  color: #22c55e;
+  transform: scale(2);
 }
