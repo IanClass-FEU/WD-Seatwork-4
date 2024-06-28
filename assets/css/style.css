@@ -199,24 +199,23 @@ video {
 
 /* Specific hover colors for social icons */
 .social-icons a:hover .bi-facebook {
-  color: #1877f2; /* Facebook blue */
+  color: #1877f2;
 }
 
 .social-icons a:hover .bi-twitter {
-  color: #1da1f2; /* Twitter blue */
+  color: #1da1f2;
 }
 
 .social-icons a:hover .bi-instagram {
-  color: #c32aa3; /* Instagram pink */
+  color: #c32aa3;
 }
 
 .social-icons a:hover .bi-youtube {
-  color: #ff0000; /* YouTube red */
+  color: #ff0000;
 }
 
-/* Specific hover color for navbar icons */
 .navbar a:hover .bi-stars,
 .navbar a:hover .bi-house-fill,
 .navbar a:hover .bi-rocket-takeoff-fill {
-  color: yellow; /* Yellow color */
+  color: yellow;
 }
