@@ -1,33 +1,35 @@
+# WD-Seatwork_3_Tamayo
+
 <a name="readme-top">
 
 <br/>
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/IanClass-FEU/">
+    <img src="./assets/img/readme.png" alt="hero">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+
+<h2 align ="center"> NaiOyamat</h2>
+  <h3 align="center"> SEATWORK 3 </h3>
+  <p> This website showcases a variety of feature section designs and layouts using HTML and CSS. </p>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+## Waka time stats
+![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=IanTamayo)
+
+
+![](https://visit-counter.vercel.app/counter.png?page=IanClass-FEU/WD-Seatwork-4)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,28 +57,31 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The purpose of this website is to present a collection of dynamic and static header and footer designs created exclusively using CSS. This project aims to showcase the versatility and power of CSS in creating visually appealing and functional web components without relying on JavaScript or external libraries.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Landing Page
+  - Header
+  - Live background
+  - Hover Effect
+  - Footer
+  - Socials Buttons
+
+- Feature Section 1
+  - Header
+  - Footer
+
+- Feature Section 2
+  - Header
+  - Footer
+
+- Footer Animation
+  - Hover Effect
+
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -104,9 +109,8 @@ WD-ProjectName
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|     |     └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -114,7 +118,9 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Icons | Used for incorporating icon in the header and footer | https://icons.getbootstrap.com/ |
+| Layout | Used as a guide for layout and basic trouble shooting problems | https://www.w3schools.com/ |
+| Live Background | Used to find background for landing page| https://www.wallpaperengine.io/ |
+
