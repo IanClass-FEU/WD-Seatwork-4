@@ -46,6 +46,15 @@ body {
     align-items: center;
 }
 
+.nav img {
+    width: 200px;
+    margin-top: -70px;
+    margin-bottom: -70px;
+    margin-right: -50px;
+    margin-left: -90px;
+
+}
+
 .nav ul {
     list-style: none;
     display: flex;
@@ -183,4 +192,28 @@ background: radial-gradient(circle, rgba(70, 29, 18, 0.767) 20%, rgba(0, 0, 0, 0
 justify-content: center;
 }
 
+.side-container {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 50px;
+    border: 0.5px solid rgba(255, 255, 255, 0.116);
+    z-index: 1000;
+  }
+
+  .side-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-icons a {
+    margin: 10px 0;
+    color: #8002d4;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+  }
 

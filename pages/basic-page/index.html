@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage Layout</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
+    <div id="1"></div>
     <div class="background-container">
         <video preload="auto" autoplay loop muted src="./assets/video/preview.mp4"></video>
     </div>
     <header>
         <div class="nav">
-            <div class="logo">Logo</div>
+            <div class="logo">
+                <img src="./assets/img/logo.png">
+            </div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -25,9 +36,8 @@
             </div>
         </div>
     </header>
-
     <section class="hero2">
-        <div class="hero-image">
+        <div  class="hero-image">
             <img src="./assets/img/starfield-logo.webp" alt="Hero Image">
         </div>
 </section>
@@ -39,8 +49,8 @@
         <div class="hero-text">
             <h1>STARFIELD</h1>
             <p>Starfield is a 2023 action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. In the game, the player character joins a group of space explorers who must venture to various corners of the galaxy to acquire mysterious artifacts.</p>
+            <div id="2"></div>
         </div>
-
     </section>
 
     <section class="features">
@@ -49,8 +59,9 @@
              <p> Immerse yourself with Starfield's Immerse Story Building </p>
             <div class="feature-cards">
                 <img src="./assets/img/feat1.webp">
+                
             </div>
-
+<div id="3"></div>
         </div>
         <div class="feature2">
             <h2>Open Galaxy Travel</h2>
@@ -58,13 +69,16 @@
             <div class="feature-cards">
                 <img src="./assets/img/feat2.webp">
             </div>
+            <div id="4"></div>
         </div>
+
         <div class="feature3">
             <h2>Combat System</h2>
             <p>Starfield enables the player to fight in immersive and large-scale interplanetary combat.</p>
             <div class="feature-cards">
                 <img src="./assets/img/feat3.webp">
             </div>
+            <div id="5"></div>
         </div>
         <div class="feature4">
             <h2>Interactive NPCs</h2>
@@ -73,6 +87,16 @@
                 <img src="./assets/img/feat4.webp">
             </div>
         </div>
+
+        <div class="side-container">
+            <div class="side-icons">
+              <a href="#1"><i class="bi bi-caret-up-fill"></i></a>
+              <a href="#2"><i class="bi bi-book"></i></a>
+              <a href="#3"><i class="bi bi-rocket-takeoff"></i></a>
+              <a href="#4"><i class="bi bi-fire"></i></a>
+              <a href="#5"><i class="bi bi-person-arms-up"></i></a>
+            </div>
+
     </section>
 </body>
 </html>
