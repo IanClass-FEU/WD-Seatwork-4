@@ -1,0 +1,122 @@
+header {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    padding: 20px 20px;
+    background-color: #080808;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 0.5px solid rgba(255, 255, 255, 0.116);
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: 200px;
+    margin-top: -70px;
+    margin-bottom: -70px;
+    margin-right: -50px;
+    margin-left: -90px;
+
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav a i{
+    font-size: 30px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.auth-buttons .sign-up {
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.side-container {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 50px;
+    border: 0.5px solid rgba(255, 255, 255, 0.116);
+    z-index: 1000;
+  }
+
+  .side-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-icons a {
+    margin: 10px 0;
+    color: #8002d4;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+  .side-icons a:hover {
+    color: #ffffff;
+}
+
+.side-icons a::after {
+    content: attr(title);
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease, right 0.5s ease;
+}
+
+.side-icons a:hover::after {
+    opacity: 1;
+    visibility: visible;
+    right: 50px;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+.nav a:hover .hover-text-bottom {
+    display: inline;
+    color: #ffffff;
+}
+
+
+.hover-text-bottom {
+    display: none;
+    margin-left: 5px;
+}
