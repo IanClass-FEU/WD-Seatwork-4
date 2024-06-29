@@ -22,9 +22,7 @@ header {
     width: 200px;
     margin-top: -70px;
     margin-bottom: -70px;
-    margin-right: -50px;
     margin-left: -90px;
-
 }
 
 .nav ul {
@@ -37,9 +35,11 @@ header {
 .nav a {
     text-decoration: none;
     color: #ffffff;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.nav a i{
+.nav a i {
     font-size: 30px;
 }
 
@@ -53,6 +53,30 @@ header {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.nav a:hover {
+    color: #692df5;
+    transform: scale(1.3);
+}
+
+.nav a:hover .hover-text-bottom {
+    display: inline;
+    color: #ffffff;
+    transform: translateY(10px);
+    opacity: 1;
+}
+
+.hover-text-bottom {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -6px;
+    white-space: nowrap;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+
 
 .side-container {
     position: fixed;
@@ -104,19 +128,4 @@ header {
     opacity: 1;
     visibility: visible;
     right: 50px;
-}
-
-.nav a:hover {
-    color: #ffffff;
-}
-
-.nav a:hover .hover-text-bottom {
-    display: inline;
-    color: #ffffff;
-}
-
-
-.hover-text-bottom {
-    display: none;
-    margin-left: 5px;
 }

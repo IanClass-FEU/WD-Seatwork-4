@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -34,6 +40,8 @@ body {
 .text-content img {
     max-width: 100%;
     height: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -47,6 +55,10 @@ h2{
     text-align: left;
 }
 
+h3{
+    color: yellow;
+    margin-bottom: 10px;
+}
 p {
     margin: 5px 0;
     text-align: left;
