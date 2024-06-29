@@ -4,17 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 200px);
+    padding: 20px 20px;
+    background-color: #1c1c1e;
+    margin-top: 10px;
+    border-radius: 50px;
+}
 
 body {
     font-family: Arial, sans-serif;
     background-color: #0e0e0e;
     color: #ffffff;
+    padding-top: 80px;
 }
 
-header {
-    padding: 20px;
-    background-color: #1c1c1e;
-}
 
 .nav {
     display: flex;
@@ -26,6 +34,7 @@ header {
     list-style: none;
     display: flex;
     gap: 20px;
+    text-align: center;
 }
 
 .nav a {
@@ -34,7 +43,6 @@ header {
 }
 
 .auth-buttons a {
-    margin-left: 20px;
     text-decoration: none;
     color: #ffffff;
 }
@@ -52,10 +60,21 @@ header {
 }
 
 .hero-image {
-    height: 200px;
-    background-color: #333;
-    margin-bottom: 20px;
+    height: auto;
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
+
+.hero-image img {
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 .features {
     padding: 50px 20px;
@@ -67,6 +86,13 @@ header {
 
 .feature h2 {
     color: #66ff66;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    color: #ffffff;
+    text-align: center;
 }
 
 .feature-cards {
@@ -76,7 +102,7 @@ header {
 }
 
 .feature-card {
-    background-color: #1c1c1e;
+    background-color: #f5f5ff;
     padding: 20px;
     border-radius: 10px;
     flex: 1;
@@ -84,34 +110,4 @@ header {
     max-width: 300px;
 }
 
-footer {
-    background-color: #1c1c1e;
-    padding: 20px;
-}
 
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.footer-column {
-    flex: 1;
-}
-
-.footer-column ul {
-    list-style: none;
-}
-
-.footer-column a {
-    text-decoration: none;
-    color: #ffffff;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.social-media a {
-    margin-right: 20px;
-    text-decoration: none;
-    color: #ffffff;
-}
