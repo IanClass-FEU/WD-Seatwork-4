@@ -57,26 +57,33 @@
 
 ## Overview
 
-This website showcases a variety of feature section designs and layouts using HTML and CSS.
+This project entails the creation of a showcase consisting of two unique feature pages designed exclusively with HTML and CSS. The showcase aims to show how HTML and CSS can be leveraged to create visually appealing and user-friendly feature pages for various types of websites. By demonstrating different layouts, styling techniques, and interactive elements achievable without relying on JavaScript or external libraries, the project showcases the power of HTML and CSS in driving creativity and functionality in web design. This initiative not only showcases practical implementations but also serves as a practice for aspiring web developers and designers looking to enhance their skills.
 
 ### Key Components
 - Landing Page
   - Header
   - Live background
   - Hover Effect
-  - Footer
   - Socials Buttons
+  - Side Navigation
 
-- Feature Section 1
+- Feature Section 1 (Starfield)
   - Header
-  - Footer
+  - Side Navigation Anchor
+  - Live Background
+  - Live Feature Videos
+  - Hover Animation
 
-- Feature Section 2
+- Feature Section 2 (No Man's Sky)
   - Header
-  - Footer
+  - Grid Gallery
+  - Hover Animation
+  - Icons
 
 - Footer Animation
   - Hover Effect
+  - Live Feature Videos
+  - Icons
 
 
 ### Technology
@@ -100,9 +107,9 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|   |    └─ fileWith.jpeg/.jpg/.webp/.png
+|   └─ video
+|        └─ fileWith.mp4
 └─ pages
 |  └─ pageName
 |     └─ assets
@@ -110,7 +117,7 @@ WD-ProjectName
 |     |  |  └─ style.css
 |     |  └─ img
 |     |     └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  
+|     |
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -123,4 +130,8 @@ WD-ProjectName
 | Icons | Used for incorporating icon in the header and footer | https://icons.getbootstrap.com/ |
 | Layout | Used as a guide for layout and basic trouble shooting problems | https://www.w3schools.com/ |
 | Live Background | Used to find background for landing page| https://www.wallpaperengine.io/ |
+| .webp resources | Used to all .webp files used for live images | https://giphy.com/ |
+| Gradient Background | Used to create gradient colored background faster | https://cssgradient.io/ |
+| Feature Design | Used to find inspiration and ideas for feature section design | https://saaslandingpage.com/features/ |
+| Troubleshooting | Used to find for possible solution or more efficient ways of coding | https://stackoverflow.com/ |
 
