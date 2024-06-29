@@ -11,7 +11,7 @@
   </a>
 
 <h2 align ="center"> NaiOyamat</h2>
-  <h3 align="center"> SEATWORK 3 </h3>
+  <h3 align="center"> SEATWORK 4 </h3>
   <p> This website showcases a variety of feature section designs and layouts using HTML and CSS. </p>
 </div>
 <div align="center">
