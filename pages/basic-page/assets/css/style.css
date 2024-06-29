@@ -131,28 +131,28 @@ background: radial-gradient(circle, rgba(70, 29, 18, 0.767) 20%, rgba(0, 0, 0, 0
 .features .feature1 {
     text-align: center;
     margin-bottom: 50px;
-    background: radial-gradient(circle, rgb(100, 46, 201) 35%, rgba(0, 0, 0, 0) 60%);
+    background: radial-gradient(circle, rgb(37, 6, 95) 35%, rgba(0, 0, 0, 0) 60%);
     border-top:0.5px solid #ffffff;
 }
 
 .features .feature2 {
     text-align: center;
     margin-bottom: 50px;
-    background: radial-gradient(circle, rgba(11, 45, 70, 0.158) 35%, rgb(0, 0, 0) 79%);
+    background: radial-gradient(circle, rgb(95, 51, 10) 35%, rgba(0, 0, 0, 0) 60%);
     border-top:0.5px solid #ffffff;
 }
 
 .features .feature3 {
     text-align: center;
     margin-bottom: 50px;
-    background: radial-gradient(circle, rgba(11, 45, 70, 0.158) 35%, rgb(0, 0, 0) 79%);
+    background: radial-gradient(circle, rgb(70, 49, 41) 35%, rgba(0, 0, 0, 0) 60%);
     border-top:0.5px solid #ffffff;
 }
 
 .features .feature4 {
     text-align: center;
     margin-bottom: 50px;
-    background: radial-gradient(circle, rgba(11, 45, 70, 0.158) 35%, rgb(0, 0, 0) 79%);
+    background: radial-gradient(circle, rgb(20, 49, 23) 35%, rgba(0, 0, 0, 0) 60%);
     border-top:0.5px solid #ffffff;
 }
 
